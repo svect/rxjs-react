@@ -1,0 +1,42 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: #000;
+  color: #fff;
+  font-family: monospace;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  padding: 2rem;
+}
+
+.debug {
+  width: 500px;
+  height: 500px;
+  display: block;
+  overflow: scroll;
+  background: #444;
+  color: #fff;
+}
+
+.interactive-area {
+  width: 500px;
+  height: 500px;
+  display: block;
+  background: linear-gradient(#56e, #65b);
+}
+
+.click-events {
+  padding: 2rem;
+  text-align: center;
+  font-size: 3rem;
+}
